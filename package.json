@@ -6,7 +6,7 @@
   "homepage" : "https://gautham2117.github.io/Gautham_Portfolio/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
